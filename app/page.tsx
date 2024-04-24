@@ -143,9 +143,10 @@ export default function Home() {
                     </AccordionTrigger>
                     <AccordionContent className="w-full text-start">
                       <p className="mb-4 text-start">
-                        I'm fortunate to have a network of friends in startups
-                        and venture capital. Their insights and feedback keep me
-                        informed about the latest trends in tech!
+                        I&apos;m fortunate to have a network of friends in
+                        startups and venture capital. Their insights and
+                        feedback keep me informed about the latest trends in
+                        tech!
                       </p>
                     </AccordionContent>
                   </AccordionItem>
