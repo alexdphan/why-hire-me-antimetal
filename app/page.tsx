@@ -190,6 +190,29 @@ export default function Home() {
             <h1 className="text-4xl font-semibold tracking-tighter text-gray-900 mt-10 items-center justify-center text-center">
               Hope we chat soon!{' '}
             </h1>
+            <div className="my-8 flex flex-col items-center justify-center">
+              <text className=" mx-auto mt-4 text-base font-medium text-black text-balance w-3/4 mb-5 text-center items-center justify-center">
+                Here is the Github repo for this website.
+              </text>
+              <ul className="grid grid-rows-1 grid-cols-1 gap-4 list-none text-center">
+                <a
+                  href="https://github.com/alexdphan/why-hire-me-antimetal"
+                  className="text-black hover:underline"
+                >
+                  <li className="flex flex-col items-center justify-center text-blue-500 p-3 border rounded-lg hover:bg-[#DAFF00] transition-colors border-opacity-50 shadow h-32 text-sm sm:text-md">
+                    <span className="mb-2">
+                      <Image
+                        src="/strava.jpg"
+                        alt="Strava"
+                        width={30}
+                        height={30}
+                      />
+                    </span>
+                    Github: alexdphan/why-hire-me-antimetal
+                  </li>
+                </a>
+              </ul>
+            </div>
           </section>
         </main>
       </div>
