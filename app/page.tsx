@@ -57,17 +57,17 @@ export default function Home() {
                       Jack of all trades
                     </dt>
                     <dd className="mt-2 text-sm font-medium text-gray-500">
-                      I'm both technical and can communicate well. I've done
-                      sales and development work in the past, so I'm well versed
-                      in both.
+                      I&apos;m both technical and can communicate well.
+                      I&apos;ve done sales and development work in the past, so
+                      I&apos;m well versed in both.
                     </dd>
                   </div>
                   <div>
                     <dt className="font-medium text-gray-900">I learn fast</dt>
                     <dd className="mt-2 text-sm text-gray-500">
                       I love dabbling in new devleoper tooling and building new
-                      projects. When I'm not, I'm either with friends, family,
-                      or focusing on my health.
+                      projects. When I&apos;m not, I&apos;m either with friends,
+                      family, or focusing on my health.
                     </dd>
                   </div>
                   <div>
@@ -76,8 +76,8 @@ export default function Home() {
                     </dt>
                     <dd className="mt-2 text-sm text-gray-500">
                       I did this website, presentation, and video in one day.
-                      That said, I'm always to willing to put in the dirty work
-                      and make sure it's done right.
+                      That said, I&apos;m always to willing to put in the dirty
+                      work and make sure it&apos;s done right.
                     </dd>
                   </div>
                 </dl>
@@ -155,8 +155,8 @@ export default function Home() {
             </div>
             <div className="my-8 flex flex-col items-center justify-center">
               <text className=" mx-auto mt-4 text-base font-medium text-black text-balance w-3/4 mb-5 text-center items-center justify-center">
-                I saw Antimetal just start a running club, so here's my Strava
-                as well :D
+                I saw Antimetal just start a running club, so here&apos;s my
+                Strava as well :D
               </text>
               <ul className="grid grid-rows-1 grid-cols-1 gap-4 list-none text-center">
                 <a
