@@ -58,7 +58,7 @@ export default function Home() {
                   <Vid />
                 </div>
                 <div>
-                  <dl className="grid grid-cols-1 gap-6 sm:mt-16 mt-24 lg:grid-cols-3 text-balance">
+                  <dl className="grid grid-cols-1 gap-6 sm:mt-16 mt-24 lg:grid-cols-3 text-balance sm:mb-10">
                     <div>
                       <dt className="font-medium text-gray-900">
                         I do the dirty work
@@ -93,7 +93,7 @@ export default function Home() {
                 </div>
                 <Accordion
                   collapsible
-                  className="w-full max-w-2xl mt-6"
+                  className="w-full sm:max-w-screen mt-6"
                   type="single"
                 >
                   <AccordionItem value="item-1">
