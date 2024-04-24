@@ -12,7 +12,7 @@ const EmojiParticle: React.FC<EmojiParticleProps> = ({ children }) => {
 
   const getRandomEmoji = () => {
     const randomNumber = Math.random();
-    if (randomNumber < 0.6) {
+    if (randomNumber < 0.7) {
       return '/antimetalzuck.jpg';
     } else if (randomNumber < 0.8) {
       return '/antimetal1.jpg';
@@ -34,10 +34,13 @@ const EmojiParticle: React.FC<EmojiParticleProps> = ({ children }) => {
       particle.appendChild(img);
 
       // Set initial position based on the event's clientX and clientY
-      particle.style.left =
-        event.clientX - containerRef.current.offsetLeft + 'px';
-      particle.style.top =
-        event.clientY - containerRef.current.offsetTop + 'px';
+      // particle.style.left =
+      //   event.clientX - containerRef.current.offsetLeft + 'px';
+      // particle.style.top =
+      //   event.clientY - containerRef.current.offsetTop + 'px';
+
+      particle.style.left = event.clientX + 'px';
+      particle.style.top = event.clientY + 'px';
 
       containerRef.current.appendChild(particle);
       particlesRef.current.push(particle);

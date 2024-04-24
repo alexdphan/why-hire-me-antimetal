@@ -15,7 +15,7 @@ export default function Video() {
 
   return (
     <>
-      <div className="flex items-center justify-center">
+      <div className="flex flex-col items-center justify-center">
         <button
           type="button"
           onClick={openModal}
@@ -23,6 +23,9 @@ export default function Video() {
         >
           Watch my presentation
         </button>
+        <text className=" mx-auto mt-4 text-base  text-gray-500 text-balance w-full mb-10 text-center items-center justify-center">
+          Recommended watch in 1.5x!
+        </text>
       </div>
 
       <Transition appear show={isOpen} as={Fragment}>

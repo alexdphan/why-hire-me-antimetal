@@ -79,13 +79,17 @@
 
 .emoji-particle {
   position: relative;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .particle {
   position: absolute;
   pointer-events: none;
   animation: particle-fade 1s ease-out;
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+  z-index: 9999;
 }
 
 .particle img {
