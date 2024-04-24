@@ -322,6 +322,17 @@ export default function Home() {
                   height="850px"
                 ></iframe>
               </div>
+              <div className="flex items-center justify-center mt-4">
+                {' '}
+                My cover letter is also linked&nbsp;
+                <a
+                  href="https://drive.google.com/file/d/1wCVSAd8iXcN9UsGbgRt69LiPB1BtA3VY/view"
+                  className="bg-[#DAFF00] hover:underline"
+                >
+                  here
+                </a>
+                .{' '}
+              </div>
               <div className="flex flex-col items-center justify-center">
                 <h1 className="text-4xl font-semibold tracking-tighter text-gray-900 mt-10 items-center justify-center text-center">
                   Hope we chat soon!{' '}
