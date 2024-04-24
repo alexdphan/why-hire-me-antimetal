@@ -21,6 +21,7 @@ export default function Home() {
           <section>
             <div className="px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl">
               <div className="text-center items-center justify-center">
+                {/* Button is just the rounded border styling */}
                 <Button>
                   <div className="flex sm:flex-row flex-col items-center justify-center">
                     <div className="flex justify-center py-6">
@@ -30,14 +31,13 @@ export default function Home() {
                         width={250}
                         height={400}
                         className="rounded-3xl"
-                      />{' '}
+                      />
                     </div>
-                    <div className="flex sm:flex-row ">
-                      <div className="relative sm:ml-[-30px] mr-[-20px] mt-2 mx-2">
-                        {' '}
+                    <div className="flex sm:flex-row space-x-2">
+                      <div className="relative sm:ml-[-30px] mr-[-30px] mt-2 mx-2">
                         <AudioPlayer src="/music.mp3" />
                       </div>
-                      <h1 className="text-2xl font-semibold tracking-tighter text-gray-900 lg:text-5xl text-balance w-72	">
+                      <h1 className="text-2xl font-semibold tracking-tighter text-gray-900 lg:text-5xl text-balance w-72">
                         Why you should hire me as your intern
                       </h1>
                     </div>

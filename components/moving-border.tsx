@@ -13,7 +13,7 @@ import { cn } from '@/lib/utils';
 export function Button({
   borderRadius = '1.75rem',
   children,
-  as: Component = 'button',
+  as: Component = 'div',
   containerClassName,
   borderClassName,
   duration,
@@ -32,12 +32,12 @@ export function Button({
   return (
     <Component
       className={cn(
-        'bg-transparent relative text-xl p-[1px] overflow-hidden ',
+        'bg-transparent relative text-xl p-[1px] overflow-hidden cursor-pointer',
         containerClassName
       )}
-      style={{
-        borderRadius: borderRadius,
-      }}
+      style={{ borderRadius: borderRadius }}
+      role="button"
+      tabIndex={0}
       {...otherProps}
     >
       <div
@@ -53,22 +53,18 @@ export function Button({
           />
         </MovingBorder>
       </div>
-
       <div
         className={cn(
-          'relative  border border-slate-800 backdrop-blur-xl text-white flex items-center justify-center w-full h-full text-sm antialiased',
+          'relative border border-slate-800 backdrop-blur-xl text-white flex items-center justify-center w-full h-full text-sm antialiased',
           className
         )}
-        style={{
-          borderRadius: `calc(${borderRadius} * 0.96)`,
-        }}
+        style={{ borderRadius: `calc(${borderRadius} * 0.96)` }}
       >
         {children}
       </div>
     </Component>
   );
 }
-
 export const MovingBorder = ({
   children,
   duration = 2000,
