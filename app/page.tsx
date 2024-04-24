@@ -58,7 +58,7 @@ export default function Home() {
                   <Vid />
                 </div>
                 <div>
-                  <dl className="grid grid-cols-1 gap-6 sm:mt-16 mt-24 lg:grid-cols-3 text-balance sm:mb-10">
+                  <dl className="grid grid-cols-1 gap-6 sm:mt-10 mt-8 lg:grid-cols-3 text-balance sm:mb-10">
                     <div>
                       <dt className="font-medium text-gray-900">
                         I do the dirty work
