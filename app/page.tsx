@@ -20,31 +20,31 @@ export default function Home() {
         <main className="flex min-h-screen flex-col items-center justify-between sm:p-24 p-4 particle-container">
           <section>
             <div className="px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl">
-              <div className="text-center items-center justify-center">
+              <div className="text-center justify-center">
                 {/* Button is just the rounded border styling */}
                 <Button>
-                  <div className="flex sm:flex-row flex-col items-center justify-center">
-                    <div className="flex justify-center py-6">
+                  <div className="flex sm:flex-row flex-col items-center justify-center sm:space-x-8">
+                    <div className="flex justify-center py-6 sm:py-0">
                       <Image
                         src="/psycho.jpg"
                         alt="Psycho Image"
                         width={250}
                         height={400}
-                        className="rounded-3xl"
+                        className="rounded-3xl w-full"
                       />
                     </div>
-                    <div className="flex sm:flex-row space-x-2">
-                      <div className="relative sm:ml-[-30px] mr-[-30px] mt-2 mx-2">
+                    <div className="flex sm:flex-row flex-col items-center justify-center ">
+                      <div className="sm:mb-0 items-center justify-center">
                         <AudioPlayer src="/music.mp3" />
                       </div>
-                      <h1 className="text-2xl font-semibold tracking-tighter text-gray-900 lg:text-5xl text-balance w-72">
+                      <h1 className=" sm:text-4xl lg:text-4xl xl:text-5xl text-xl font-semibold tracking-tighter text-gray-900 text-balance text-center sm:text-center mb-4 lg:mg-6 ">
                         Why you should hire me as your intern
                       </h1>
                     </div>
                   </div>
                 </Button>
 
-                <p className="w-1/2 mx-auto mt-4 text-base font-medium text-gray-500 text-balance">
+                <p className="w-full mx-auto mt-4 text-base font-medium text-gray-500 text-balance">
                   I don&apos;t know exactly what you guys need, but one thing
                   I&apos;d say is I&apos;ll make myself useful
                 </p>
@@ -56,7 +56,7 @@ export default function Home() {
                     <dt className="font-medium text-gray-900">
                       Jack of all trades
                     </dt>
-                    <dd className="mt-2 text-sm font-medium text-gray-500">
+                    <dd className="mt-2 text-sm text-gray-500">
                       I&apos;m both technical and can communicate well.
                       I&apos;ve done sales and development work in the past, so
                       I&apos;m well versed in both.
