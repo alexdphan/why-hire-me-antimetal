@@ -58,7 +58,7 @@ export default function Home() {
                   <Vid />
                 </div>
                 <div>
-                  <dl className="grid grid-cols-1 gap-6 sm:mt-10 mt-6 lg:grid-cols-3 text-balance sm:mb-10">
+                  <dl className="grid grid-cols-1 gap-6 mt-10 mb-10 lg:grid-cols-3 text-balance ">
                     <div>
                       <dt className="font-medium text-gray-900">
                         I do the dirty work
@@ -202,7 +202,7 @@ export default function Home() {
             <EmojiParticle>
               <div className="flex flex-col items-center justify-center">
                 <div className="flex flex-col items-center justify-center">
-                  <h1 className="text-4xl font-semibold tracking-tighter text-gray-900 mt-10">
+                  <h1 className="text-4xl font-semibold tracking-tighter text-gray-900 mt-6">
                     Presentation
                   </h1>
                   <text className=" mx-auto mt-4 text-base font-medium text-gray-500 text-balance w-3/4 mb-10 text-center items-center justify-center">
