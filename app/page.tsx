@@ -187,6 +187,9 @@ export default function Home() {
                 height="850px"
               ></iframe>
             </div>
+            <h1 className="text-4xl font-semibold tracking-tighter text-gray-900 mt-10 items-center justify-center text-center">
+              Hope we chat soon!{' '}
+            </h1>
           </section>
         </main>
       </div>
