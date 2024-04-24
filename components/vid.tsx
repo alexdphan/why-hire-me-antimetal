@@ -23,7 +23,7 @@ export default function Video() {
         >
           Watch my presentation
         </button>
-        <text className=" mx-auto mt-4 text-base  text-gray-500 text-balance w-full mb-10 sm:mb-0 text-center items-center justify-center">
+        <text className=" mx-auto mt-4 text-base  text-gray-500 text-balance w-full text-center items-center justify-center">
           Recommended watch in 1.5x!
         </text>
       </div>
